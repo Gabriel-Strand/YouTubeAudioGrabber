@@ -3,6 +3,12 @@ from typing import Optional
 from yt_dlp import YoutubeDL
 from datetime import datetime
 
+'''
+
+    NOTICE: THIS CODE ONLY WORKS WITH THE GOOGLE SHEETS THAT I CURRENTLY HAVE SETUP. TO USE FOR YOURSELF, YOU MUST CHANGE THE SHEET ID
+
+'''
+
 def dyc(url: str, output_path: Optional[str] = None) -> None:
     """
     Download YouTube content (single video or playlist) in MP4 format only. This is modified slightly from the original code from https://github.com/pH-7/Download-Simply-Videos-From-YouTube/blob/main/readme.md
